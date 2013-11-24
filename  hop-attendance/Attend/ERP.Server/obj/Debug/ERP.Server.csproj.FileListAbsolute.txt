@@ -1,0 +1,80 @@
+H:\ERP Soulution\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.dll
+H:\ERP Soulution\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.pdb
+H:\ERP Soulution\ERP\ERP\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
+H:\ERP Soulution\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.dll
+H:\ERP Soulution\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.pdb
+H:\ERP Soulution\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.dll
+H:\ERP Soulution\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.pdb
+H:\ERP Soulution\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+H:\ERP Soulution\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+H:\ERP Soulution\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+G:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.dll
+G:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.pdb
+G:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.dll
+G:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+G:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+G:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+G:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.pdb
+G:\Work For Navana\ERP\ERP\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
+G:\Work For Navana\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.dll
+G:\Work For Navana\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.pdb
+I:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.dll
+I:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.pdb
+I:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.dll
+I:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+I:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+I:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+I:\Work For Navana\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.pdb
+I:\Work For Navana\ERP\ERP\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
+I:\Work For Navana\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.dll
+I:\Work For Navana\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.pdb
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.pdb
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.pdb
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.pdb
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.pdb
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.pdb
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.pdb
+D:\work\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.dll
+D:\work\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.pdb
+D:\work\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.dll
+D:\work\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\work\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\work\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\work\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.pdb
+D:\work\ERP\ERP\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
+D:\work\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.dll
+D:\work\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.pdb
+E:\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.dll
+E:\ERP\ERP\ERP.Server\bin\Debug\ERP.Server.pdb
+E:\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.dll
+E:\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\ERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\ERP\ERP\ERP.Server\bin\Debug\ERP.Domain.pdb
+E:\ERP\ERP\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
+E:\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.dll
+E:\ERP\ERP\ERP.Server\obj\Debug\ERP.Server.pdb
+E:\MultiERP\ERP\ERP.Server\bin\Debug\ERP.Server.dll
+E:\MultiERP\ERP\ERP.Server\bin\Debug\ERP.Server.pdb
+E:\MultiERP\ERP\ERP.Server\bin\Debug\ERP.Domain.dll
+E:\MultiERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\MultiERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\MultiERP\ERP\ERP.Server\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\MultiERP\ERP\ERP.Server\bin\Debug\ERP.Domain.pdb
+E:\MultiERP\ERP\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
+E:\MultiERP\ERP\ERP.Server\obj\Debug\ERP.Server.dll
+E:\MultiERP\ERP\ERP.Server\obj\Debug\ERP.Server.pdb

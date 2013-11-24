@@ -1,0 +1,29 @@
+﻿.inner_fieldset-SingleLine_450
+{
+    clear:both;
+    float:left;
+    padding-right:10px;
+    width:450px;
+}
+.editor-label-singleLine_120 {
+    margin: 1em 0 0 0;
+    float:left;
+    width:120px;
+    margin-left:5px;
+}
+.Control_Width_100
+{
+    width:100px!Important;
+}
+.Control_Width_150
+{
+    width:150px!Important;
+}
+.Control_Width_200
+{
+    width:200px!Important;
+}
+    .Control_Width_300
+{
+    width:300px!Important;
+}

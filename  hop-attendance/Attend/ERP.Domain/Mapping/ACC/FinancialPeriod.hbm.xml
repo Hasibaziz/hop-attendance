@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ERP.Domain"
+                   namespace="ERP.Domain.Model.ACC">
+
+  <class name="FinancialPeriod" table="ACC_FinancialPeriod">
+    <id name="ID" column="FPID">
+      <generator class="guid" />
+    </id>
+    <property name="Name" column="FPName" />
+    <property name="StartDate" column="StartDate" />
+    <property name="EndDate" column="EndDate" />
+    <property name="isActive" column="isActive" />
+    <property name="CreatedBy" column="Created_By" />
+    <property name="CreatedDate" column="Created_Date" />
+    <property name="UpdatedBy" column="Updated_By" />
+    <property name="UpdatedDate" column="Updated_Date" />
+  </class>
+</hibernate-mapping>

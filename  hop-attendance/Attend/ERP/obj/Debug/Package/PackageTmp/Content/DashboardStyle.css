@@ -1,0 +1,47 @@
+﻿
+ul#Module {
+    padding: 0 0 2px;
+    position: relative;
+    margin: 0;
+    text-align: left;
+}
+
+ul#Module li {
+    display: inline;
+    list-style: none;
+}
+
+ul#Module li#greeting {
+    padding: 20px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    color: #fff;
+}
+
+ul#Module li a {
+    padding: 20px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    background-color:#009fff;
+    color:White;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+}
+
+ul#Module li a:hover {
+    background-color:Silver;
+    text-decoration: none;
+}
+
+ul#Module li a:active {
+    background-color: #a6e2a6;
+    text-decoration: none;
+}
+
+ul#Module li.selected a {
+    background-color: #fff;
+    color: #000;
+}

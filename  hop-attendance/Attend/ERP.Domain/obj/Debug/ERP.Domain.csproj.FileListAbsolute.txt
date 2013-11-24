@@ -1,0 +1,56 @@
+H:\ERP Soulution\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.dll
+H:\ERP Soulution\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.pdb
+H:\ERP Soulution\ERP\ERP\ERP.Domain\bin\Debug\Iesi.Collections.dll
+H:\ERP Soulution\ERP\ERP\ERP.Domain\bin\Debug\NHibernate.dll
+H:\ERP Soulution\ERP\ERP\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
+H:\ERP Soulution\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.dll
+H:\ERP Soulution\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.pdb
+G:\Work For Navana\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.dll
+G:\Work For Navana\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.pdb
+G:\Work For Navana\ERP\ERP\ERP.Domain\bin\Debug\Iesi.Collections.dll
+G:\Work For Navana\ERP\ERP\ERP.Domain\bin\Debug\NHibernate.dll
+G:\Work For Navana\ERP\ERP\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
+G:\Work For Navana\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.dll
+G:\Work For Navana\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.pdb
+I:\Work For Navana\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.dll
+I:\Work For Navana\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.pdb
+I:\Work For Navana\ERP\ERP\ERP.Domain\bin\Debug\Iesi.Collections.dll
+I:\Work For Navana\ERP\ERP\ERP.Domain\bin\Debug\NHibernate.dll
+I:\Work For Navana\ERP\ERP\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
+I:\Work For Navana\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.dll
+I:\Work For Navana\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.pdb
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.pdb
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Domain\bin\Debug\Iesi.Collections.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Domain\bin\Debug\NHibernate.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.dll
+G:\Work For Carhaat\Transfer\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.pdb
+F:\CarHaat\Transfer\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.pdb
+F:\CarHaat\Transfer\ERP\ERP\ERP.Domain\bin\Debug\Iesi.Collections.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Domain\bin\Debug\NHibernate.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
+F:\CarHaat\Transfer\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.dll
+F:\CarHaat\Transfer\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.pdb
+D:\work\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.dll
+D:\work\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.pdb
+D:\work\ERP\ERP\ERP.Domain\bin\Debug\Iesi.Collections.dll
+D:\work\ERP\ERP\ERP.Domain\bin\Debug\NHibernate.dll
+D:\work\ERP\ERP\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
+D:\work\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.dll
+D:\work\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.pdb
+E:\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.dll
+E:\ERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.pdb
+E:\ERP\ERP\ERP.Domain\bin\Debug\Iesi.Collections.dll
+E:\ERP\ERP\ERP.Domain\bin\Debug\NHibernate.dll
+E:\ERP\ERP\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
+E:\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.dll
+E:\ERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.pdb
+E:\MultiERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.dll
+E:\MultiERP\ERP\ERP.Domain\bin\Debug\ERP.Domain.pdb
+E:\MultiERP\ERP\ERP.Domain\bin\Debug\Iesi.Collections.dll
+E:\MultiERP\ERP\ERP.Domain\bin\Debug\NHibernate.dll
+E:\MultiERP\ERP\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
+E:\MultiERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.dll
+E:\MultiERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.pdb
