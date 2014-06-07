@@ -1479,40 +1479,51 @@ namespace ERP.Controllers
             return File(buffer, "application/vnd.ms-excel", "NorthTower.xls");                   
         }
 
-       public ActionResult MGRExcelReport(string startDate = "", string endDate = "")
+       //public ActionResult MGRExcelReport(string startDate = "", string endDate = "")
+       // {
+
+       //      ManagerinfoEntity _Model = new ManagerinfoEntity();
+       //     _Model.StartDate = startDate;
+       //     _Model.EndDate = endDate;
+       //     DataTable dt = (DataTable)ExecuteDB(ERPTask.AG_GetManagerRecord, _Model);
+       //     StringBuilder sb = new StringBuilder();
+       //     sb.Append("<table border='" + "2px" + "'b>");
+
+       //     //write column headings
+       //     sb.Append("<tr>");
+
+       //     foreach (System.Data.DataColumn dc in dt.Columns)
+       //     {
+       //         sb.Append("<td><b><font face=Arial size=2>" + dc.ColumnName + "</font></b></td>");
+       //     }
+       //     sb.Append("</tr>");
+
+       //     foreach (System.Data.DataRow dr in dt.Rows)
+       //     {
+       //         sb.Append("<tr>");
+       //         foreach (System.Data.DataColumn dc in dt.Columns)
+       //         {
+       //             sb.Append("<td><font face=Arial size=" + "14px" + ">" + dr[dc].ToString() + "</font></td>");
+       //         }
+       //         sb.Append("</tr>");
+       //     }
+       //     sb.Append("</table>");
+
+       //     //this.Response.AddHeader("Content-Disposition", "Employees.xls");
+       //     this.Response.ContentType = "application/vnd.ms-excel";
+       //     byte[] buffer = System.Text.Encoding.UTF8.GetBytes(sb.ToString());
+       //     return File(buffer, "application/vnd.ms-excel", "MGRAttendance.xls");
+       // }
+
+        public ActionResult MGRExcelReport(string startDate = "", string endDate = "")
         {
 
-             ManagerinfoEntity _Model = new ManagerinfoEntity();
+            ManagerinfoEntity _Model = new ManagerinfoEntity();
             _Model.StartDate = startDate;
             _Model.EndDate = endDate;
             DataTable dt = (DataTable)ExecuteDB(ERPTask.AG_GetManagerRecord, _Model);
-            StringBuilder sb = new StringBuilder();
-            sb.Append("<table border='" + "2px" + "'b>");
-
-            //write column headings
-            sb.Append("<tr>");
-
-            foreach (System.Data.DataColumn dc in dt.Columns)
-            {
-                sb.Append("<td><b><font face=Arial size=2>" + dc.ColumnName + "</font></b></td>");
-            }
-            sb.Append("</tr>");
-
-            foreach (System.Data.DataRow dr in dt.Rows)
-            {
-                sb.Append("<tr>");
-                foreach (System.Data.DataColumn dc in dt.Columns)
-                {
-                    sb.Append("<td><font face=Arial size=" + "14px" + ">" + dr[dc].ToString() + "</font></td>");
-                }
-                sb.Append("</tr>");
-            }
-            sb.Append("</table>");
-
-            //this.Response.AddHeader("Content-Disposition", "Employees.xls");
-            this.Response.ContentType = "application/vnd.ms-excel";
-            byte[] buffer = System.Text.Encoding.UTF8.GetBytes(sb.ToString());
-            return File(buffer, "application/vnd.ms-excel", "MGRAttendance.xls");
+            ERP.Utility.Excelimport.ExcelFileResult actionResult = new ERP.Utility.Excelimport.ExcelFileResult(dt) { FileDownloadName = "MGRAttendance.xls" };
+            return actionResult;            
         }
 
         public ActionResult ReportView()
@@ -1524,6 +1535,17 @@ namespace ERP.Controllers
             rptH.SetDataSource(dt);
             Stream stream = rptH.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
             return File(stream, "application/pdf");   
+        }
+
+        public ActionResult WelExcelReport(string startDate = "", string endDate = "")
+        {
+
+            WelformEntity _Model = new WelformEntity();
+            _Model.StartDate = startDate;
+            _Model.EndDate = endDate;
+            DataTable dt = (DataTable)ExecuteDB(ERPTask.AG_GetWelformRecord, _Model);
+            ERP.Utility.Excelimport.ExcelFileResult actionResult = new ERP.Utility.Excelimport.ExcelFileResult(dt) { FileDownloadName = "WelformAttendance.xls" };
+            return actionResult;
         }
        
     }

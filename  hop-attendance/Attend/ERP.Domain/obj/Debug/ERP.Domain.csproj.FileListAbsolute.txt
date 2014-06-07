@@ -54,3 +54,8 @@ E:\MultiERP\ERP\ERP.Domain\bin\Debug\NHibernate.dll
 E:\MultiERP\ERP\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
 E:\MultiERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.dll
 E:\MultiERP\ERP\ERP.Domain\obj\Debug\ERP.Domain.pdb
+E:\Hopattend\Attend\ERP.Domain\bin\Debug\ERP.Domain.dll
+E:\Hopattend\Attend\ERP.Domain\bin\Debug\ERP.Domain.pdb
+E:\Hopattend\Attend\ERP.Domain\obj\Debug\ResolveAssemblyReference.cache
+E:\Hopattend\Attend\ERP.Domain\obj\Debug\ERP.Domain.dll
+E:\Hopattend\Attend\ERP.Domain\obj\Debug\ERP.Domain.pdb

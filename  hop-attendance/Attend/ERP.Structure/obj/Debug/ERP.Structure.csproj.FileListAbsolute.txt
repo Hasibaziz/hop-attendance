@@ -94,3 +94,15 @@ E:\MultiERP\ERP\ERP.Structure\bin\Debug\ERP.Domain.pdb
 E:\MultiERP\ERP\ERP.Structure\obj\Debug\ResolveAssemblyReference.cache
 E:\MultiERP\ERP\ERP.Structure\obj\Debug\ERP.Structure.dll
 E:\MultiERP\ERP\ERP.Structure\obj\Debug\ERP.Structure.pdb
+E:\Hopattend\Attend\ERP.Structure\bin\Debug\ERP.Structure.dll
+E:\Hopattend\Attend\ERP.Structure\bin\Debug\ERP.Structure.pdb
+E:\Hopattend\Attend\ERP.Structure\bin\Debug\ERP.Server.dll
+E:\Hopattend\Attend\ERP.Structure\bin\Debug\ERP.Domain.dll
+E:\Hopattend\Attend\ERP.Structure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Hopattend\Attend\ERP.Structure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Hopattend\Attend\ERP.Structure\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Hopattend\Attend\ERP.Structure\bin\Debug\ERP.Server.pdb
+E:\Hopattend\Attend\ERP.Structure\bin\Debug\ERP.Domain.pdb
+E:\Hopattend\Attend\ERP.Structure\obj\Debug\ResolveAssemblyReference.cache
+E:\Hopattend\Attend\ERP.Structure\obj\Debug\ERP.Structure.dll
+E:\Hopattend\Attend\ERP.Structure\obj\Debug\ERP.Structure.pdb

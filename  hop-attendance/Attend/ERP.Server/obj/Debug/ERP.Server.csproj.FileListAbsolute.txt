@@ -78,3 +78,10 @@ E:\MultiERP\ERP\ERP.Server\bin\Debug\ERP.Domain.pdb
 E:\MultiERP\ERP\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
 E:\MultiERP\ERP\ERP.Server\obj\Debug\ERP.Server.dll
 E:\MultiERP\ERP\ERP.Server\obj\Debug\ERP.Server.pdb
+E:\Hopattend\Attend\ERP.Server\bin\Debug\ERP.Server.dll
+E:\Hopattend\Attend\ERP.Server\bin\Debug\ERP.Server.pdb
+E:\Hopattend\Attend\ERP.Server\bin\Debug\ERP.Domain.dll
+E:\Hopattend\Attend\ERP.Server\bin\Debug\ERP.Domain.pdb
+E:\Hopattend\Attend\ERP.Server\obj\Debug\ResolveAssemblyReference.cache
+E:\Hopattend\Attend\ERP.Server\obj\Debug\ERP.Server.dll
+E:\Hopattend\Attend\ERP.Server\obj\Debug\ERP.Server.pdb

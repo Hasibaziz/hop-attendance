@@ -19,6 +19,7 @@
                <input type="button" value="Show" title="Show"  id="GetAttenList" /> &nbsp; &nbsp;&nbsp;
                <input type="button" value="Print Report" title="Print"   onclick="printItem()" />
                <input type="button" value="Import Excel" title="Print"   onclick="printItemEx()" />
+                <input type="button" value="Excel All" title="Print"   onclick="impexcel()" />
             </div>
             <div id="RecordsContainer">
             </div>
@@ -40,6 +41,16 @@
         window.open("/Configuration/AllManagerInforptExcel");
     }
 </script>
+
+<script type="text/javascript">
+    function impexcel() {
+        EX1 = $("#StartDate").val();
+        EX2 = $("#EndDate").val();
+        EX3 = $("#EMPID").val();
+        window.location = "/EMPWise/MgrwiseExcel?EX1=" + EX1 + "&EX2=" + EX2 + "&EX3=" + EX3;
+    }
+</script>
+
 <script type="text/javascript">
     $(document).ready(function () {
 
@@ -113,7 +124,8 @@
             dateFormat: 'dd/mm/yy',
             changeMonth: true,
             changeYear: true,
-            yearRange: '-100y:c+nn',
+//            yearRange: '-100y:c+nn',
+            yearRange: '1900:+0', 
             maxDate: '1d'
         });
     });
