@@ -22,7 +22,7 @@ namespace ERP.Server.DAL
             sql=sql+"    , Attendance.Emp_Id as EMPID, Employee_Info.Ename AS EName, Employee_Info.Designation AS Designation, Employee_Info.SECTION AS DeptName,(substring(Attendance.IN_time,1,2)+'.'+substring(Attendance.IN_time,3,4)) AS Intime, (substring(Attendance.Out_Time,1,2)+'.'+substring(Attendance.Out_Time,3,4)) AS Outtime, Attendance.Present_Absent as Status from Attendance, Employee_Info";
             sql = sql + " WHERE Employee_Info.EmpID NOT IN (SELECT Terminate_Resign.EmpID FROM Terminate_Resign)";
             sql = sql + " AND Attendance.Emp_Id=Employee_Info.EmpID and Employee_Info.Grade NOT LIKE 'W%'";
-            sql = sql + " AND Attendance.Atten_Date BETWEEN convert(date,'" + objAtten.StartDate + "',103) AND convert(date,'" + objAtten.EndDate + "',103) AND Attendance.SECTION= '" + objAtten.DeptName + "' ";
+            sql = sql + " AND Attendance.Atten_Date BETWEEN convert(date,'" + objAtten.StartDate + "',103) AND convert(date,'" + objAtten.EndDate + "',103) AND Attendance.SECTION LIKE '" + objAtten.DeptName + "' ";
             sql = sql + " ORDER BY Attendance.Emp_Id, CONVERT(DATE,Attendance.Atten_Date,103)  ASC";
             //sql = sql + " ORDER BY Attendance.Atten_Date ASC";
             DbCommand dbCommand = db.GetSqlStringCommand(sql);

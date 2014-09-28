@@ -15,6 +15,7 @@
                 Start Date: <%: Html.TextBoxFor(m => m.StartDate, new { @readonly = "true", @class = "datefield Control_Width_100" })%> &nbsp; &nbsp;&nbsp;
                 End Date: <%: Html.TextBoxFor(m => m.EndDate, new {@readonly = "true",  @class = "datefield Control_Width_100" })%> &nbsp; &nbsp;&nbsp;
                 <input type="button" value="Show" title="Save"  id="GetAttenList" /> &nbsp; &nbsp;&nbsp;
+                <input type="button" value="Export to Excel" title="Export"   onclick="BTNALL()" />
                 <%--<input type="button" value="Print Report" title="Save"   onclick="printItem()" />--%>
             </div>
             <div id="RecordsContainer">
@@ -27,6 +28,14 @@
             window.open("/Configuration/ReportView01");
         }
 </script>--%>
+<script type="text/javascript">
+    function BTNALL() {
+        startDate = $("#StartDate").val();
+        endDate = $("#EndDate").val();
+
+        window.location = "/Configuration/WelExcelReport?startDate=" + startDate + "&endDate=" + endDate;
+    }
+</script>
 <script type="text/javascript">
         $(document).ready(function () {
 

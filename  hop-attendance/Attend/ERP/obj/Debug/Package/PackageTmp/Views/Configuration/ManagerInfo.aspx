@@ -16,8 +16,8 @@
                 End Date:<%: Html.TextBoxFor(m => m.EndDate, new {@readonly = "true",  @class = "datefield Control_Width_100" })%>
                 <input type="button" value="Show" title="Show"  id="GetAttenList" />
                 <input type="button" value="Print Report" title="Save"   onclick="printItem()" />
-                <input type="button" value="Save As Excel" title="Save As Excel"   onclick="printExcel()" />
-                <input type="button" value="Save All" title="Save All"   onclick="BTNALL()" />
+               <%-- <input type="button" value="Save As Excel" title="Save As Excel"   onclick="printExcel()" />
+                <input type="button" value="Save All" title="Save All"   onclick="BTNALL()" />--%>
                 <input type="button" value="Excel" title="Excel"   onclick="BTNEXCEL()" />
             </div>
             <div id="RecordsContainer">
@@ -30,7 +30,7 @@
         startDate = $("#StartDate").val();
         endDate = $("#EndDate").val();
 
-        window.location = "/Configuration/-MGRExcelReport?startDate=" + startDate + "&endDate=" + endDate;
+        window.location = "/Configuration/MGRExcelReport?startDate=" + startDate + "&endDate=" + endDate;
     }
 </script>
 
@@ -39,7 +39,7 @@
         startDate = $("#StartDate").val();
         endDate = $("#EndDate").val();
 
-        window.location = "/Configuration/-ManagerRPTEXCELall?startDate=" + startDate + "&endDate=" + endDate;
+        window.location = "/Configuration/ManagerRPTEXCELall?startDate=" + startDate + "&endDate=" + endDate;
     }
 </script>
 
@@ -52,7 +52,7 @@
 <script type="text/javascript">
     function printExcel() {
         alert("Report");
-        window.open("/Configuration/-ALLManagerRPTEXCEL");
+        window.open("/Configuration/ALLManagerRPTEXCEL");
     }
 </script>
 

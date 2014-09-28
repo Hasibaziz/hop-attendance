@@ -20,8 +20,7 @@ namespace ERP.Controllers
 {
     public class EMPWiseController : BaseController
     {
-        //
-        // GET: /EMPWise/
+        
 
         public ActionResult Index()
         {
@@ -561,6 +560,18 @@ namespace ERP.Controllers
             _Model.EndDate = EX2;
             _Model.EMPID = EX3;
             DataTable dt = (DataTable)ExecuteDB(ERPTask.AG_GetEmployeewiseRecord, _Model);
+            ERP.Utility.Excelimport.ExcelFileResult actionResult = new ERP.Utility.Excelimport.ExcelFileResult(dt) { FileDownloadName = "NTEmployeeWise.xls" };
+            return actionResult;
+        }
+
+        public ActionResult APPEMPExcelReport(string EX1 = "", string EX2 = "", string EX3 = "")
+        {
+
+            ApprealInfoEntity _Model = new ApprealInfoEntity();
+            _Model.StartDate = EX1;
+            _Model.EndDate = EX2;
+            _Model.EMPID = EX3;
+            DataTable dt = (DataTable)ExecuteDB(ERPTask.AG_GetApprealEMPWiseRecord, _Model);
             ERP.Utility.Excelimport.ExcelFileResult actionResult = new ERP.Utility.Excelimport.ExcelFileResult(dt) { FileDownloadName = "NTEmployeeWise.xls" };
             return actionResult;
         }

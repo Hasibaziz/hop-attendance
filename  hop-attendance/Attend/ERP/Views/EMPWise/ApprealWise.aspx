@@ -19,7 +19,8 @@
                 <%--Employee ID:<%: Html.TextBoxFor(m => m.EMPID, new { @class = "DropDown Control_Width_100" })%>--%>
                <input type="button" value="Show" title="Show"  id="GetAttenList" /> &nbsp; &nbsp;&nbsp;
                <input type="button" value="Print Report" title="Print"   onclick="printItem()" />
-               <input type="button" value="Import Report" title="Print"   onclick="printItemEx()" />
+               <%--<input type="button" value="Import Report" title="Print"   onclick="printItemEx()" />--%>
+               <input type="button" value="Import Excel" title="Print"   onclick="impexcel()" />
             </div>
             <div id="RecordsContainer">
             </div>
@@ -39,6 +40,14 @@
     function printItemEx() {
         alert("Report");
         window.open("/EMPWise/ApparelWiserptExcel");
+    }
+</script>
+<script type="text/javascript">
+    function impexcel() {
+        EX1 = $("#StartDate").val();
+        EX2 = $("#EndDate").val();
+        EX3 = $("#EMPID").val();
+        window.location = "/EMPWise/APPEMPExcelReport?EX1=" + EX1 + "&EX2=" + EX2 + "&EX3=" + EX3;
     }
 </script>
 <script type="text/javascript">

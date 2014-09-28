@@ -112,7 +112,8 @@
             dateFormat: 'dd/mm/yy',
             changeMonth: true,
             changeYear: true,
-            yearRange: '-100y:c+nn',
+//            yearRange: '-100y:c+nn',
+            yearRange: '-100:+0',
             maxDate: '1d'
         });
     });

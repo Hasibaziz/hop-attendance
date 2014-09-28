@@ -44,7 +44,7 @@
 
         $('#RecordsContainer').jtable({
             paging: true,
-            pageSize: 120,
+            pageSize: 20,
             sorting: false,
             title: 'Managers Attendance Summary',
             defaultSorting: 'Name ASC',

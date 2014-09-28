@@ -61,7 +61,7 @@
 
         $('#RecordsContainer').jtable({
             paging: true,
-            pageSize: 130,
+            pageSize: 20,
             sorting: false,
             title: 'North Tower Attendance Summary',
             defaultSorting: 'Name ASC',
