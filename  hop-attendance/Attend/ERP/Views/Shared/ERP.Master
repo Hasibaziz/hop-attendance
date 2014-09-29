@@ -35,7 +35,17 @@
 
     <script src="<%: Url.Content("~/Scripts/jtablesite.js") %>" type="text/javascript"></script>
     <script type="text/javascript" src="<%: Url.Content("~/Scripts/jtable/jquery.jtable.js") %>"></script>
-
+    <script src="<%: Url.Content("~/Scripts/jquery-idleTimeout.js") %>" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).idleTimeout({
+                inactivity: 30000,
+                noconfirm: 10000,
+                sessionAlive: 10000,
+                redirect_url: 'Account/Login'
+            });
+        });
+    </script>
    
 
 </head>
