@@ -11,10 +11,10 @@
       inactivity: 1200000, //20 Minutes
       noconfirm: 10000, //10 Seconds
       sessionAlive: 30000, //10 Minutes
-      redirect_url: '/js_sandbox/',
+      redirect_url: '/js_sandbox_re/',
       click_reset: true,
-      alive_url: '/js_sandbox/',
-      logout_url: '/js_sandbox/',
+      alive_url: '/js_sandbox_lv/',
+      logout_url: '/js_sandbox_log/',
       showDialog: true,
 	  dialogTitle: 'Auto Logout',
 	  dialogText: 'You are about to be signed out due to inactivity.',
